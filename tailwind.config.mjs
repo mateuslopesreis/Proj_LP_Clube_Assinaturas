@@ -6,6 +6,7 @@ export default {
 			transparent: 'transparent',
 			'pink-dark': '#7D298A',
 			'white': '#FFFFFF',
+			'shape-background': '#00050A',
 		extend: {},
 	},
 },
