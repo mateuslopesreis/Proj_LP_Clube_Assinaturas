@@ -1,10 +1,16 @@
 ---
 import Navbar from "./Navbar.astro"
 import fundo from '../fotos/fundo.png';
+import book from '../fotos/Book.png';
+import ouija from '../fotos/Ouija.png';
+import ball from '../fotos/Ball.png';
+
 ---
 
 <div
-style={{ backgroundImage: `url(${fundo.src})` }}>
+style={{ backgroundImage: `url(${fundo.src})`,  backgroundSize: 'cover', 
+backgroundPosition: 'center', 
+backgroundRepeat: 'no-repeat' }}>
 <div class="p-10">
 <Navbar/>
 </div>
@@ -18,6 +24,29 @@ style={{ backgroundImage: `url(${fundo.src})` }}>
       </p>
      
     </div>
+
+  </div>
+
+
+
+
+</div>
+
+<div class="hero  text-center mt-20 mb-40">
+  <div  class="max-w-screen-xl">
+
+    <div class="flex justify-center">
+    <img class="" src={book.src}/>
+  </div>
+
+    <h2 class="mb-5 text-2xl text-white ">Receba todo mês um livro surpresa do seu tema favorito, acompanhado de brindes exclusivos que tornarão a sua experiência literária encantadora</h2>
+    
+   <div class="float-start">
+    <img src={ouija.src}/>
+   </div>
+   <div class="float-end">
+    <img src={ball.src}/>
+   </div>
 
   </div>
 

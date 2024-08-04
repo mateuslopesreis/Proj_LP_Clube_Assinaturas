@@ -2,10 +2,18 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro'
 import Home from '../components/Home.astro';
+import Section from '../components/Section.astro';
 ---
 
 <Layout title="LP Cluble de Assinatura">
-	
+	<main>
 	<Home/>
+	<Section/>
+	</main>
 </Layout>
 
+<style>
+   main{
+	background-color: #00050A;
+   }
+</style>
